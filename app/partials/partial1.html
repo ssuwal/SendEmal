@@ -1,0 +1,15 @@
+<div ng-controller="DatepickerDemoCtrl">
+    <pre>Selected date is: <em id="dateFormat">{{dt| date:'fullDate' }}</em></pre>
+
+    <h4>Inline</h4>
+    <div style="display:inline-block; min-height:290px;">
+        <div class="well well-sm" ng-model="dt">
+            <datepicker min="minDate" show-weeks="showWeeks"></datepicker>
+        </div>
+    </div>
+<button ng-click="sendTheMail()">Send the Mail</button>
+<input id="input" type="text">type your email id
+     
+
+    
+</div>
